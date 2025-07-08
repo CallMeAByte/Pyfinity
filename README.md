@@ -1,7 +1,7 @@
 # Pyfinity 🚀
 
 <div align="center">
-  
+  ![Pyfinity Logo](pyfinitylogo.png)
   <strong>A Python wrapper for the Infinity Bot List API, designed for Discord bot developers.</strong>
 </div>
 
