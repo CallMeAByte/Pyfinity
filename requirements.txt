@@ -1,0 +1,9 @@
+httpx
+pytest
+build
+setuptools
+wheel
+twine
+black
+ruff
+mypy
