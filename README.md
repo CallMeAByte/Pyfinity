@@ -1,6 +1,5 @@
 # Pyfinity 🚀
- ![Pyfinity Logo](pyfinitylogo.png)
- 
+
 <div align="center">
  
   <strong>A Python wrapper for the Infinity Bot List API, designed for Discord bot developers.</strong>
@@ -187,3 +186,6 @@ Since Pyfinity only needs your bot's server/user counts, it works with any frame
 ---
 
 **That's it!** Pyfinity handles the rest, automatically posting your bot's statistics to help users discover your bot on Infinity Bot List.
+
+
+ ![Pyfinity Logo](pyfinitylogo.png)
