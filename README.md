@@ -1,6 +1,13 @@
 # Pyfinity 🚀
 
-A Python wrapper for the Infinity Bot List API, designed for Discord bot developers.
+<div align="center">
+  <div style="background-color: #000000; padding: 30px; border-radius: 15px; display: inline-block;">
+    <img src="assets/pyfinitylogo.png" alt="Pyfinity - Python Infinity Snake Logo" width="200" height="200">
+  </div>
+  <br><br>
+  <strong>A Python wrapper for the Infinity Bot List API, designed for Discord bot developers.</strong>
+</div>
+
 
 ## What is Pyfinity?
 
@@ -24,6 +31,7 @@ Pyfinity is a lightweight Python library that makes it easy to post your Discord
 ```bash
 pip install pyfinity
 ```
+[README.md](https://github.com/user-attachments/files/21115638/README.md)
 
 ### For Any Discord Framework
 Pyfinity works with **ANY** Discord bot library! Here are some examples:
