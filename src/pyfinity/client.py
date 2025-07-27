@@ -213,6 +213,7 @@ class InfinityClient:
             InfinityAPIError: If the request fails
         """
         data = {
+            "bot_id": self.bot_id,
             "servers": server_count,
         }
 
@@ -234,7 +235,8 @@ class InfinityClient:
         }
         self._last_refresh = time.time()
 
-        return await self._make_request("POST", f"/bots/{self.bot_id}/stats", data=data)
+        # Use the correct endpoint as per docs
+        return await self._make_request("POST", "/bots/stats", data=data)
 
     def get_rate_limit_info(self) -> Dict[str, Any]:
         """
